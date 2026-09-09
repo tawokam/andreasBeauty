@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap');
+
+/* Couleurs dorées : amber ou custom */
+:root {
+  --gold: #d4af37;
+  --gold-dark: #b8960c;
+  --gold-light: #e8c547;
+  --cream: #fff8f0;
+  --dark: #0a0a0a;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0a0a0a; /* noir profond */
+  color: #f5f5f5;
+}
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -16px; /* gutter offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 16px; /* gutter size */
+  background-clip: padding-box;
+}
+/* Style pour les images */
+.my-masonry-grid_column > div {
+  margin-bottom: 16px;
+}
