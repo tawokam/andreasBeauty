@@ -101,7 +101,7 @@ const servicesData = [
   },
   {
     id: 4,
-    title: 'Pédicure & Soins des Pieds',
+    title: 'Pédicure & Onglerie',
     description: 'Soins complets, modelage relaxant, vernis pour des pieds parfaits.',
     image: pedicureImg,
     icon: <FaHandSparkles />,
